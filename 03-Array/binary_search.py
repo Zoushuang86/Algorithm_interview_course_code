@@ -38,6 +38,7 @@ def binary_search(arr, n, target):
             right = mid     # target在[left,mid)中
     return -1
 
+
 arr = [n for n in range(100000000)]
 start = time.time()
 binary_search(arr, 100000000, 666666)
